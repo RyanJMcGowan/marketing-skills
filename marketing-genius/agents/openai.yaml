@@ -1,0 +1,14 @@
+interface:
+  display_name: Marketing Genius
+  short_description: Invent memorable campaigns from human insight
+  default_prompt: Use $marketing-genius to develop unconventional campaign concepts
+    for my product.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
